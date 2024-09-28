@@ -1,3 +1,9 @@
+#!/bin/bash
+#
+# Automatically deploy a Cuckoo sandbox
+# Author: s4kur4
+# https://github.com/S4kur4/AutoDeployCuckoo
+# https://0x0c.cc/2020/03/19/Install-a-Cuckoo-Sandbox-in-12-steps
 
 function updateDependencies() {
 	# Update system dependencies
@@ -108,7 +114,7 @@ clearScreen
 echo -e "\033[41;30m------------------------------\033[0m"
 echo -e "\033[41;30m Step 4: Configure VirtualBox \033[0m"
 echo -e "\033[41;30m------------------------------\033[0m"
-configureVirtualbox /tmp/Agent.ova
+configureVirtualbox /tmp/win7ultimate.iso
 clearScreen
 
 echo -e "\033[41;30m---------------------------\033[0m"
