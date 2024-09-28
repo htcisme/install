@@ -42,7 +42,7 @@ function downloadAgent() {
 	# Agent.ova is a Windows7 (x86) virtual machine and used to be an Cuckoo agent
 	url="https://drive.google.com/file/d/1VAa5Zw56hhony3Q31Ba4OgaLnm5KqpBl/view"
 	# Download from google drive
-	gdown --fuzzy --speed=50MB $url -O /tmp/Agent.ova
+	gdown --fuzzy --speed=50MB $url -O /tmp/win7ultimate.iso
 }
 
 function configureVirtualbox() {
@@ -114,7 +114,7 @@ clearScreen
 echo -e "\033[41;30m------------------------------\033[0m"
 echo -e "\033[41;30m Step 4: Configure VirtualBox \033[0m"
 echo -e "\033[41;30m------------------------------\033[0m"
-configureVirtualbox /tmp/Agent.ova
+configureVirtualbox /tmp/win7ultimate.iso
 clearScreen
 
 echo -e "\033[41;30m---------------------------\033[0m"
