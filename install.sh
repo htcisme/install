@@ -1,9 +1,3 @@
-#!/bin/bash
-#
-# Automatically deploy a Cuckoo sandbox
-# Author: s4kur4
-# https://github.com/S4kur4/AutoDeployCuckoo
-# https://0x0c.cc/2020/03/19/Install-a-Cuckoo-Sandbox-in-12-steps
 
 function updateDependencies() {
 	# Update system dependencies
